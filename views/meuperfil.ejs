@@ -1,0 +1,144 @@
+<%- include ('./partials/header.ejs') %>
+
+
+
+    <%- include ('./partials/navbar2.ejs') %>
+
+
+
+
+
+ <br>
+ <br>
+
+ <div class="container emp-perfil">
+    <form method="post">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="perfil-img">
+                    <img src="img/ottersm.jpg" alt=""/>
+                    <div class="file btn btn-lg btn-primary">
+                        Mudar Foto
+                        <input type="file" name="file"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="perfil-head">
+                            <h5>
+                              <%= usuario.nome%></p>
+                            </h5>
+                           
+                            <p class="proile-rating">LIVROS LIDOS: <span>x/xx</span></p>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active"  id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style= "color: #198754;" id="perfil-tab" data-toggle="tab" href="#sobre" role="tab" aria-controls="perfil" aria-selected="false">Todos os livros</a>
+            </li>
+            </ul>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <input type="submit" class="perfil-edit-btn" name="btnAddMore" value="Editar Perfil"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="livros-lidos">
+                    <p>ULTIMOS LIVROS</p>
+                    <a href="">< usuario.usuario_livro></a><br/>
+                    <a href="">< usuario.usuario_livro></a><br/>
+                    <a href="">< usuario.usuario_livro></a>
+                    <p>ULTIMOS DOWNLOADS</p>
+                    <a href="">< usuario.usuario_livro></a><br/>
+                    <a href="">< usuario.usuario_livro></a><br/>
+                    <a href="">< usuario.usuario_livro></a><br/>
+                    <a href="">< usuario.usuario_livro></a><br/>
+                    <a href="">< usuario.usuario_livro></a><br/>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="tab-content perfil-tab" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Usuario</label>
+                                    </div>
+                                  
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Nome Completo</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p><%= usuario.nome%></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Email Cadastrado</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p><%= usuario.email%></p>
+                                    </div>
+                                </div>
+                                
+                                </div>
+                    </div>
+                    <div class="tab-pane fade" id="perfil" role="tabpanel" aria-labelledby="perfil-tab">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Experience</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>Expert</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Hourly Rate</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>10$/hr</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Total Projects</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>230</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>English Level</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>Expert</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Availability</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>6 months</p>
+                                    </div>
+                                </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>Your Bio</label><br/>
+                                <p>Your detail description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>           
+</div>
+
+ <%- include ('./partials/footer.ejs') %>

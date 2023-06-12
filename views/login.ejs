@@ -1,0 +1,30 @@
+<%- include ('./partials/header.ejs') %>
+ <%- include ('./partials/navbar.ejs') %>
+
+<div id="grad3" style="text-align:center;"> 
+  <div class="containercentro">    
+    <div class="login">
+        <h1> Login</h1>
+          <form method="post" action ="/authenticate">
+            
+            <input type="text" placeholder="Email" name="email" class="inputlogin"required>
+            <br><br>
+            <input type="password" placeholder="Senha" name="senha" class="inputlogin"required>
+            <br><br>
+            <button class="buttonenviar" type="submit">Enviar</button> 
+            <br><br>
+        </form>
+        <a href = "/cadastro" style="text-decoration: none;">
+          <div class ="buttoncadastro">
+            Cadastrar-se
+          </div>
+        </a>
+        
+      </label>
+    </div> 
+  </div>
+</div>
+
+
+
+<%- include ('./partials/footer2.ejs') %>

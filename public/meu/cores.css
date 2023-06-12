@@ -1,0 +1,856 @@
+.tituloiggy {
+
+  color: #333;
+}
+
+.form-check-input:checked{
+  
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.radius{
+  border-radius: 55rem;
+}
+
+
+.emp-perfil1{
+  padding: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 0.5rem;
+  background: #fff;
+ 
+}
+
+.perfil1-img{
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+.perfil1-img img{
+  width: 70%;
+  height: 80%;
+}
+
+
+
+.perfil1-img:hover{
+  transform: scale(1.1);
+}
+.decoracao{
+ color: #ba11ba;
+}
+.primeirocar h1 {
+  font-size: 25px;
+  color: #E0EEEE;
+  border-radius: 9px;
+  background-color: rgba(51, 51, 51, 0.61);
+  font-family: 'Candara';
+  font-size: 32px;
+  
+ 
+}
+.primeirocar p {
+  font-size: 25px;
+  background-color: #198754;
+  color: #E0EEEE;
+  height: -9em;
+  border-radius: 9px;
+}
+
+
+.centrocar{
+  width: 32em;
+  justify-content: center;
+}
+
+
+.carrosel2{
+justify-content: center;
+align-items: center;
+margin-left: 12rem;
+width: 12rem;
+
+}
+.carrosel2 h1 {
+    font-size: 25px;
+    color: #E0EEEE;
+    border-radius: 9px;
+    background-color: rgba(51, 51, 51, 0.61);
+    font-family: 'Candara';
+  }
+
+  .carrosel2  p {
+    font-size: 25px;
+    background-color: #198754;
+    color: #E0EEEE;
+    height: -9em;
+    border-radius: 9px;
+  }
+
+ 
+
+.pmdb{
+  text-align: center;
+  font-family: 'Caslon';
+}
+
+body{ font-family: Arial;
+position:relative;
+width:100%;
+height:100%;
+}
+     
+    /* PAGINA login*/
+
+
+    #grad3{
+      height: 800px;
+      background-image: linear-gradient(180deg, #198754, white);
+  }
+            
+  .inputlogin{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+  }
+    
+    .login {
+      background-color: rgba(54, 53, 53, 0.308);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      padding: 80px;
+      border-radius: 15px;
+      color: #fff;
+      text-align: center;
+    }
+
+    
+    button.marx:hover{
+      background-color:#19875431;
+      cursor: pointer;
+    }         
+    button:hover{
+      background-color: deepskyblue;
+      cursor: pointer;
+    }
+    button.modallogin{
+      background-color:#198754;
+      cursor: pointer;
+    }
+
+    button.modalcadastro{
+      background-color:orangered;
+      cursor: pointer;
+    }
+
+    .buttoncadastro{
+      background-color: orangered;
+      border: none;
+      padding: 15px;
+      width: 100%;
+      border-radius: 10px;
+      color: white;
+      font-size: 15px;
+         
+     }
+     .buttonenviar{
+      background-color: dodgerblue;
+      border: none;
+      padding: 15px;
+      width: 100%;
+      border-radius: 10px;
+      color: white;
+      font-size: 15px;
+      
+  }
+.fotocentro{
+  text-align: center;
+}
+
+.marina {font-size: 20px ;}
+body.geral {background-color: rgb(250, 246, 240)}
+.centro {text-align: center;
+          font-family: Century Gothic;}
+div.verdinho {background-color:#ecf8d4}
+
+.center {text-align: center;
+          font-family: Century Gothic;}
+
+.quemsomosfonte{
+  font-family: 'Segoe UI';
+}
+    
+      
+        
+/* barra de pesquisa */
+.pesquisabox{
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+
+  margin: 1rem;
+  margin-top: 4.5rem;
+  
+}
+
+.divbusca{
+  position: relative;
+  background-color:#E0EEEE;
+  border-radius: 20px;
+  border:solid #198754 2px;
+  width: 30%;
+  height: 3rem;
+  
+}
+
+
+.testeform{
+  display: inline-block;
+  width: 50%;
+}
+
+.testeform input{
+
+  width: 160%;
+  height: 2rem;
+
+  margin: .5rem;
+  margin-top: .5rem;
+  border: none;
+  border-color: #E0EEEE;
+  background-color: #E0EEEE;
+
+  outline: none;
+
+  font-size: 14px;
+
+
+}
+
+.alturabotao{
+  position: absolute;
+  right: 0%;
+  width: 20%;
+  height: 100%;
+}
+
+.testebtn1{
+  position: absolute;
+  right: -.25rem;
+
+  background-color: #198754;
+  border: none;
+  border-radius:20px 20px 20px 20px ;
+
+  width: 5rem;
+  height: 100%;
+
+  color: #fff;
+  
+}
+
+.testebtn2{
+  position: absolute;
+  right: -.25rem;
+  
+
+  background-color: #198754;
+  border: none;
+  border-radius:0px 20px 20px 0px;
+
+  width: 2.5rem;
+  height: 100%;
+
+  color: #fff;
+}
+
+
+/*filtroestante*/
+.boxfiltroestante{
+  
+    display: flex;
+    justify-content: right;
+  
+    width: 20%;
+    height: 100%;
+
+    margin-left: -2.5rem;
+      
+  
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    
+  
+  }
+    
+  .estantebtn4{
+    position: relative;
+    
+  
+    background-color: #198754;
+    border: none;
+    border-radius:20px 0px 0px 20px ;
+  
+    width: 5.5rem;
+    height: 10%;
+  
+    color: #fff;
+
+    font-size: 14px;
+  }
+  
+  .estantebtn5{
+    position: relative;
+    
+    
+  
+    background-color: #198754;
+    border: none;
+    border-radius:0px 20px 20px 0px;
+  
+    width: 2.5rem;
+    height: 10%;
+  
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .estantealturabotao{
+    position: absolute;
+    right: 0%;
+    width: 20%;
+    height: 100%;
+  }
+/* filtros*/
+.filtrobox{
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+
+  margin: 1.5rem;
+}
+
+/* zebra dos livros*/
+/* linhas pares (even) */
+.table tbody tr:nth-child(even) {
+  background-color: rgba(243, 239, 239, 0.438);
+}
+/* linhas ímpares (odd) */
+.table tbody tr:nth-child(odd) {
+  background-color: #19875441;
+}
+
+.imagemfundo {
+  
+width: 100%;
+height: 100%;
+
+position: absolute;
+z-index: 1;
+ 
+}
+/*leitor pdf*/
+.viewer {
+  width:"1024px";
+  height:"600px";
+  margin:"0 auto";
+}
+
+.boxpdf{
+  display:flex;
+  justify-content: center;
+  
+    
+  width: 95%;
+  height: 100%;
+}
+
+
+/* div livros*/
+/*
+.superior {
+  background-image : url(/img/books.png);
+  background-size: cover;
+  width: 100rem;
+  height: 50rem;
+  background-repeat: repeat; 
+  
+}
+*/
+.boxlivro {
+  display:flex;
+  justify-content: left;
+  
+    
+  width: 95%;
+  height: 100%;
+  
+  padding-left: 10rem;
+  padding-right: 1rem;
+
+  
+}
+
+
+
+.posicaolivros {
+	background: #11AABA;
+	
+  width : 10rem;
+	height :14.5rem;		
+  
+  border: 1px solid;
+  border-left: 9px groove;
+  
+  margin: 8.5rem 1rem 1rem 3rem;
+  
+  transition-duration: 300ms;
+
+
+}
+
+
+.posicaolivros:hover{
+  transform: scale(1.1);
+}
+
+
+.centrolivro{
+  text-align: center;
+  margin-top: 1rem;
+  font-family: 'Caslon';
+  font-size: 21px;
+  font-weight: bold;
+  
+}
+
+.baixolivro{
+  text-align: center;
+  margin-top: 4.5rem;
+  font-family: 'Caslon';
+  font-size: 19px;
+
+}
+ /* INDEX */
+
+.boxlivroindex {
+  display:flex;
+  justify-content: left;
+  
+    
+  width: 95%;
+  height: 100%;
+  
+  padding-left: 10rem;
+  padding-right: 1rem;
+
+
+  /*background-image : url(/img/books2.png);
+  background-color: #fff;
+  color: #000;
+  background-size: 80%; 
+  background-repeat:no-repeat ;
+  */
+
+}
+
+
+
+.cover:hover{
+  transform: scale(1.1);
+}
+
+.capaslivro{
+  width : 10rem;
+	height : 14rem;	
+}
+
+.cover {
+  background: linear-gradient(to right, rgb(186, 17, 115) 3px, rgba(17, 170, 186, 0.5) 5px, rgba(186, 17, 115, 0.5) 7px, rgba(186, 17, 115, 0.5) 10rem, transparent 12px, transparent 16px, rgba(186, 17, 115, 0.25) 17px, transparent 22px);
+  box-shadow: 0 0 5px -1px black, inset -1px 1px 2px rgba(255, 255, 255, 0.5);
+  margin: 2rem 5rem 1rem 2rem;
+  border-radius: 5px;
+ 
+  width : 10rem;
+	height : 14rem;	
+
+}
+
+.centrolivroindex{
+  text-align: center;
+  margin-top: 1rem;
+  font-family: 'Caslon';
+  font-size: 21px;
+  font-weight: bold;
+  
+}
+.baixolivroindex{
+  text-align: center;
+  margin-top: 4rem;
+  font-family: 'Caslon';
+  font-size: 19px;
+
+}
+
+@media screen and (max-width: 500px) {
+  
+  .login {
+    background-color: rgba(54, 53, 53, 0.308);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;}
+  
+      .gridlivros {
+        display: inline-block;
+        position: absolute;
+       
+       
+      }
+      .boxlivroindex {
+        display:flex;
+        justify-content: left;
+        
+          
+        width: 95%;
+        height: 100%;
+        
+        padding-left: 10rem;
+        padding-right: 1rem;
+       margin-left: -5rem;
+        
+      }
+      
+      
+      
+      .posicaolivros {
+        background: #11AABA;
+        
+        width : 10rem;
+        height :14.5rem;		
+        
+        border: 1px solid;
+        border-left: 9px groove;
+        
+        margin: 0rem 1rem 1rem 3rem;
+        
+        transition-duration: 300ms;
+      
+      
+      }
+
+      .divbusca{
+  position: relative;
+  background-color:#E0EEEE;
+  border-radius: 20px;
+  border:solid #198754 2px;
+  width: 80%;
+  height: 3rem;
+  
+}
+
+.pesquisabox{
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+
+  margin: 1rem;
+}
+
+.testeform{
+  display: inline-block;
+  width: 50%;
+}
+
+.testeform input{
+
+  width: 125%;
+  height: 2rem;
+
+  margin: .5rem;
+  margin-top: .5rem;
+
+  border: none;
+  background-color: #E0EEEE;
+}
+
+
+    }
+
+
+
+
+
+
+
+
+  @media screen and (min-width: 764px) and (max-width:1180px) {
+  
+    .login {
+      background-color: rgba(54, 53, 53, 0.308);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      padding: 66px;
+      border-radius: 15px;
+      color: #fff;
+      text-align: center;}
+    
+    
+      .centroform{
+        margin-left: 22px; 
+      }
+
+      .divbusca{
+        position: relative;
+        background-color:#E0EEEE;
+        border-radius: 20px;
+        border:solid #198754 2px;
+        width: 50%;
+        height: 3rem;
+        
+        
+      }
+
+      .boxlivroindex {
+        display:flex;
+        justify-content: left;
+        
+          
+        width: 95%;
+        height: 100%;
+        
+        padding-left: 10rem;
+        padding-right: 1rem;
+       margin-left: -5rem;
+        
+      }
+
+  }
+
+  /*  meu perfil  */ 
+
+
+.emp-perfil{
+  padding: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+.perfil-img{
+  text-align: center;
+}
+.perfil-img img{
+  width: 70%;
+  height: 100%;
+}
+.perfil-img .file {
+  position: relative;
+  overflow: hidden;
+  margin-top: -20%;
+  width: 70%;
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+  background: #198754;
+}
+.perfil-img .file input {
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+.perfil-head h5{
+  color: #333;
+}
+.perfil-head h6{
+  color: #198754;
+}
+.perfil-edit-btn{
+  border: none;
+  border-radius: 1.5rem;
+  width: 70%;
+  padding: 2%;
+  font-weight: 600;
+  color: #6c757d;
+  cursor: pointer;
+}
+.proile-rating{
+  font-size: 12px;
+  color: #818182;
+  margin-top: 5%;
+}
+.proile-rating span{
+  color: #495057;
+  font-size: 15px;
+  font-weight: 600;
+}
+.perfil-head .nav-tabs{
+  margin-bottom:5%;
+}
+.perfil-head .nav-tabs .nav-link{
+  font-weight:600;
+  border: none;
+}
+.perfil-head .nav-tabs .nav-link.active{
+  border: none;
+  border-bottom:2px solid #198754;
+}
+.livros-lidos{
+  padding: 14%;
+  margin-top: -15%;
+}
+.livros-lidos p{
+  font-size: 12px;
+  color: #818182;
+  font-weight: 600;
+  margin-top: 10%;
+}
+.livros-lidos a{
+  text-decoration: none;
+  color: #495057;
+  font-weight: 600;
+  font-size: 14px;
+}
+.livros-lidos ul{
+  list-style: none;
+}
+.perfil-tab label{
+  font-weight: 600;
+}
+.perfil-tab p{
+  font-weight: 600;
+  color: #198754;
+}
+  
+
+
+/* PAGINA cadastro*/
+    
+.buttonenviarcadastro{
+  background-color: orangered;
+  border: none;
+  padding: 15px;
+  width: 10rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;}
+
+  /* RODAPÉ */
+
+.fimdapagina{
+  background-color: #198754;
+  color: #FFFFFF;
+
+  font-family: 'Caslon';
+  font-size: 22px;
+
+  padding: 2rem 0 0 0 ;
+
+  
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.fimdapagina div{
+  background-color: #198754;
+
+  height: 80%;
+  width: 80%;
+
+  position: fixed;
+  bottom: 0;
+}
+
+
+.fimdapagina ul{
+  padding: 0;
+
+  text-align: center;
+}
+
+.fimdapagina ul li{
+  display:inline-flex;
+
+  margin: 1rem;
+}
+
+.fimdapagina ul li a{
+  text-decoration: none;
+
+  color: #FFFFFF;
+}
+
+.fimdapagina ul li a:hover{
+  color: #11AABA;
+}
+
+/*footer3*/
+
+.fimdapagina3{
+  background-color: #198754;
+  color: #FFFFFF;
+
+  font-family: 'Caslon';
+  font-size: 22px;
+
+  padding: 2rem 0 0 0 ;
+
+  
+  bottom: 0;
+ 
+  width: 100%;
+  text-align: center;
+}
+
+.fimdapagina3 div{
+  background-color: #198754;
+
+  height: 80%;
+  width: 80%;
+
+  
+  bottom: 0;
+}
+
+
+.fimdapagina3 ul{
+  padding: 0;
+
+  text-align: center;
+}
+
+.fimdapagina3 ul li{
+  display:inline-flex;
+
+  margin: 1rem;
+}
+
+.fimdapagina3 ul li a{
+  text-decoration: none;
+
+  color: #FFFFFF;
+}
+
+.fimdapagina3 ul li a:hover{
+  color: #11AABA;
+}
+
+

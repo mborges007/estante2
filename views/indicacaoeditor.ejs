@@ -1,0 +1,61 @@
+<%- include ('./partials/header.ejs') %>
+
+
+
+    <%- include ('./partials/navbar.ejs') %>
+
+
+
+
+
+ <br>
+ <br>
+
+<div class="container emp-perfil1">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="perfil1-img" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img class="capaslivro" src="img/Dom Casmurro.jpeg" alt=""/>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="perfil-head">
+                <h5> Indicacao do Editor</h5>       
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                <a class="nav-link active"  id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Sobre</a>
+                </li>
+            </ul>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam laborum adipisci eaque eveniet delectus officiis sapiente exercitationem maxime, ab voluptatum incidunt qui ut dolores, repellat unde, quaerat quae? Rem, maxime.  </p>
+            <p>Clique no livro para baixar</p>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Acesso ao livro </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Para ter acesso ao nosso acervo você deve ser cadastrado no site
+        </div>
+        <div class="modal-footer">
+          <a href="/cadastro">
+          <button type="button" class="btn btn-secondary modalcadastro" data-bs-dismiss="modal">Cadastre-se</button></a>
+          <a href="/login">
+          <button type="button" class="btn btn-primary modallogin">Login</button></a>
+        </div>
+      </div>
+    </div>
+  </div>            
+        
+             
+
+
+ <%- include ('./partials/footer.ejs') %>

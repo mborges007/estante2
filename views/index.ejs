@@ -1,0 +1,99 @@
+<%- include ('./partials/header.ejs') %>
+
+<%- include ('./partials/navbar.ejs') %>
+ 
+<br>
+<br>
+
+
+<div class="container">
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/estante.jpg" class="d-block w-100" alt="imagem nao encontrada">
+      <div class="carousel-caption d-none d-md-block primeirocar" >
+        <h1>Bem vindo a Minha Estante <span>
+          aqui você encontra uma infinidade de livros.<p> Desca para ver o nosso acervo</p>
+        </span></h1>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <a href="/indicacaoeditor"> <img src="img/autores.jpg" class="d-block w-100" alt="..."></a>
+      <div class="carousel-caption d-none d-md-block carrosel2">
+        <div class="centrocar">
+        <h1>Livro indicação dos editores</h1></div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <a href="/indicacaodomes"><img src="img/clarisse2.jpg" class="d-block w-100 h-10" alt="..."></a>
+      <div class="carousel-caption d-none d-md-block carrosel2">
+        <div class="centrocar">
+        <h1>Livro destaque do mês</h1></div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev marx" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next marx" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+
+<br>
+<h3 class="pmdb"> Nosso acervo</div>
+<br>
+
+
+
+<div class="boxlivroindex">
+  <div class="row">  
+      <% livro.forEach(livro=> {%>
+    <div class="col col-sm-6 col-md-4 col-lg-2">
+        <div class="cover" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img class="capaslivro" src="/img/<%=livro.nome_livro%>.jpeg" alt="NADA NADA">
+        </div>
+    </div> 
+  <%})%>    
+  </div>
+</div>
+
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Acesso ao livro </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Para ter acesso ao nosso acervo você deve ser cadastrado no site
+      </div>
+      <div class="modal-footer">
+        <a href="/cadastro">
+        <button type="button" class="btn btn-secondary modalcadastro" data-bs-dismiss="modal">Cadastre-se</button></a>
+        <a href="/login">
+        <button type="button" class="btn btn-primary modallogin">Login</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+
+    <%- include ('./partials/footer2.ejs') %>

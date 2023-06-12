@@ -1,0 +1,80 @@
+<%- include ('./partials/header.ejs') %>
+
+ <%- include ('./partials/navbar2.ejs') %>
+  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1 class="pmdb"> Minha estante</h1>
+ 
+
+<%- include ('./partials/filtroestante.ejs') %>
+  
+
+<!--<img src="/img/books2.png" class="imagemfundo">--> 
+
+
+
+
+  <div class="boxlivroindex"> 
+  <div class="row">  
+    <% livro.forEach(livro=> {%>
+    <div class="col col-sm-6 col-md-4 col-lg-2">
+       <div class="cover" data-bs-toggle="modal" data-bs-target="#<%=livro.modal_livro%>" > 
+        <img class="capaslivro" src="/img/<%=livro.nome_livro%>.jpeg" alt="NADA NADA">
+      
+      </div>
+    </div> 
+    <div class="modal fade " id="<%=livro.modal_livro%>" tabindex="-1" aria-labelledby="<%=livro.modal_livro%>" aria-hidden="true">
+      <div class="modal-dialog   modal-xl">
+        <div class="modal-content ">
+          <div class="modal-header radius">
+            <h1 class="modal-title fs-5" id="<%=livro.modal_livro%>"><%=livro.nome_livro%></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+                  
+    <div class="boxpdf">
+      <object
+        data='/pdf/<%= livro.nome_livro%>.pdf'
+        type="application/pdf"
+        width="650"
+        height="700"
+        display:flex;
+        justify-content: center;>
+    
+        <iframe
+          src='/pdf/<%= livro.nome_livro%>.pdf'
+          width="650"
+          height="700"
+          display:flex;
+          justify-content: center;>
+        <p>This browser does not support PDF!</p>
+        </iframe>
+      </object>
+    </div>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+    <%})%> 
+  
+  </div>
+ 
+
+</div>
+
+</div>
+
+
+
+  
+
+
+
+    <%- include ('./partials/footer2.ejs') %>

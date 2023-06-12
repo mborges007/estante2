@@ -1,0 +1,49 @@
+<%- include ('./partials/header.ejs') %>
+ <%- include ('./partials/navbar2.ejs') %>
+ <br>
+ 
+ 
+
+ <%- include ('./partials/searchbar.ejs') %>
+
+
+ <%- include ('./partials/filtro.ejs') %>
+
+
+ <br>
+ <div class="container">
+   <table class="table table-bordered border-dark table-striped ">
+     <thead>
+       <tr>
+         
+         <th scope="col">Titulo</th>
+         <th scope="col">Autor</th>
+         <th scope="col">Ano</th>
+         <th scope="col">Idioma</th>
+         
+         <th scope="col">Download</th>
+         
+       </tr>
+     </thead>
+     <tbody>
+       <% livro.forEach(livro=> {%>
+       <tr>
+         
+         <td>  <%=livro.nome_livro%></td>
+         <td width="500"> <%=livro.autor_livro%> </td>
+         <td width="150"> <%=livro.ano_livro%> </td>
+         <td width="150"> <%=livro.idioma_livro%> </td>
+         
+         <td width="50"><button type="submit" class="btn btn-outline-success">Baixar</button></td>
+       </tr>
+       <%})%>
+ 
+       
+     </tbody>
+   </table>
+ </div>
+ 
+
+<br>
+
+<%- include ('./partials/footer3.ejs') %>
